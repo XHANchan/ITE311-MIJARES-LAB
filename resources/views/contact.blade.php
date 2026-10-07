@@ -13,7 +13,7 @@
     </nav>
 
     <h1>Contact Page</h1>
-    <p>You can contact me at my email address.</p>
+    <p>You can contact me at my email address: xhan.2.8m@example.com</p>
 </body>
 
 </html>
