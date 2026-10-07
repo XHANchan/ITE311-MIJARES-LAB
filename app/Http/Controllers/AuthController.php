@@ -26,7 +26,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'role' => 'user',
+            'role' => 'student', // Default role for new users
         ]);
 
         return redirect('/login')->with('success', 'Registration successful. You may now log in.');
